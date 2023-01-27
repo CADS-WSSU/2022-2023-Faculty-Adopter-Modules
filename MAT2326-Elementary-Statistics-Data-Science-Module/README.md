@@ -19,3 +19,8 @@ The primary focus of this repository concerns only the portion of the course whe
 * Inference about Variables and Relationships
 
 # Navigating the Repository
+
+# Contact
+For questions or additional support regarding this module, feel free to reach out to us:
+* [John O. Adeyeye, Instructor of this module and Professor of the Department of Mathematics at Winston-Salem State University](mailto:adeyeyej@wssu.edu)
+* [Debzani Deb, Founding Director of the Center for Applied Data Science (CADS) at Winston-Salem State University](mailto:debd@wssu.edu)
