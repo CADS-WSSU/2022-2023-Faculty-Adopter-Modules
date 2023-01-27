@@ -11,3 +11,6 @@ The primary focus of this course is the use of statistics as a tool when faced w
 * Students will be introduced to the ideas of central tendency, variability, uncertainty, and some statistical methods for drawing inference from observed data.
 * Students will use statistics in the decision making processes within their fields.
 * Students will develop an appreciation for the role of statistics in society.
+
+# Data Science Infusion
+The primary focus of this repository concerns only the portion of the course where the data science infusion modules were implemented as part of the CADS adopter program. These modules are classified into broad areas
