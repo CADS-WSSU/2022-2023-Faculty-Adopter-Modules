@@ -11,21 +11,15 @@ This repository aims to be a central open-source resource for all modules and ma
       <th>Module Description</th>
     </tr>
     <tr>
-      <td><a href="https://github.com/CADS-WSSU/2021-2022-Faculty-Adopter-Modules/tree/main/ART1301-Introduction-to-Art-Data-Science-Module">Introduction to Art</a></td>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/MAT2326-Elementary-Statistics-Data-Science-Module">Elementary Statistics</a></td>
       <td>
-        ART 1301 Introduction to Art
+        MAT 2326 Elementary Statistics
       </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/CADS-WSSU/2021-2022-Faculty-Adopter-Modules/tree/main/CLS3303-Clinical-Microbiology-Data-Science-Module">Clincal Microbiology</a></td>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module">SPM 3311 Finance and Economics in Sport</a></td>
       <td>
-       CLS 3303 Clincal Microbiology
-      </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/CADS-WSSU/2021-2022-Faculty-Adopter-Modules/blob/main">Working with Families/Teaming with Systems</a></td>
-      <td>
-      BKE 3343 Working with Families/Teaming with Systems
+      SPM 3311 Finance and Economics in Sport
       </td>
     </tr>
   </tbody>
