@@ -25,22 +25,6 @@ The primary focus of this repository concerns only the portion of the course whe
       <th>Folders In Repository</th>
       <th>Information In Each Folder</th>
     </tr>
-    <tr>
-      <td><a href="https://github.com/CADS-WSSU/2021-2022-Faculty-Adopter-Modules/tree/main/BKE3343-Working-with-Families-Data-Science-Module/Data%20Analysis%20Project">Data Analysis Project</a></td>
-      <td>
-        <ul>
-          <li>Data Analysis Group Project designed to explore and analyze child and family data from various sources such as the U.S. Census Bureau, U.S. Dept. of Education, and the NC Dept. of Public Instruction</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/CADS-WSSU/2021-2022-Faculty-Adopter-Modules/tree/main/BKE3343-Working-with-Families-Data-Science-Module/Student%20Work%20Examples">Student Work Examples</a></td>
-      <td>
-        <ul>
-          <li>Sample student submissions from the project presentation</li>
-        </ul>
-      </td>
-    </tr>
   </tbody>
 </table>  
 
