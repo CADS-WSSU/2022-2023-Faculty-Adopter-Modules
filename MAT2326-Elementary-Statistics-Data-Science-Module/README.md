@@ -4,4 +4,4 @@ This is a repository containing the material regarding data science modules impl
 # Elementary Statistics
 This respository contains the data science infusion adopter modules of the Computer Science Colloquium course taught by Dr. John O. Adeyeye. The Elementary Statistics course is offered every year in the Fall at Winston-Salem State University. This course is primarily intended for mathematics majors, or those with an interest in basic statistics.
 
-This module provides 
+The primary focus of this course is the use of statistics as a tool when faced with the process of making important decisions. Topics such as common statistical measures, graphing techniques, probability, the standard normal distribution, z-tests, t-tests, correlations and prediction, chi-square tests
