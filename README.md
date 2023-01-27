@@ -17,7 +17,7 @@ This repository aims to be a central open-source resource for all modules and ma
       </td>
     </tr>
     <tr>
-      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module">SPM 3311 Finance and Economics in Sport</a></td>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module">Finance and Economics in Sport</a></td>
       <td>
       SPM 3311 Finance and Economics in Sport
       </td>
