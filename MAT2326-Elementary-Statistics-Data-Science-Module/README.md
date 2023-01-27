@@ -13,4 +13,9 @@ The primary focus of this course is the use of statistics as a tool when faced w
 * Students will develop an appreciation for the role of statistics in society.
 
 # Data Science Infusion
-The primary focus of this repository concerns only the portion of the course where the data science infusion modules were implemented as part of the CADS adopter program. These modules are classified into broad areas
+The primary focus of this repository concerns only the portion of the course where the data science infusion modules were implemented as part of the CADS adopter program. This module was classified into three broad units:
+* Exploring Data
+* From Exploration to Inference
+* Inference about Variables and Relationships
+
+# Navigating the Repository
