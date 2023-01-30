@@ -5,7 +5,7 @@ This is a repository containing the material regarding data science modules impl
 # Finance and Economics in Sport
 This respository contains the data science infusion adopter modules of the Finance and Economics in Sport SPM 3311 course taught by Dr. Sangkwon Lee. The SPM 3311 course is offered every year in the Fall at Winston-Salem State University from the Health, Physical Education, and Sport Studies department. The majority of students who enroll in this course are those majoring in sports management. However, this course is also intended for all students whose interests and/or professional goals involve business in sports/sports analytics.
 
-The primary focus of this course is the use of statistics as a tool when faced with the process of making important decisions. Topics such as common statistical measures, graphing techniques, probability, the standard normal distribution, z-tests, t-tests, correlations and prediction, and chi-square tests will be covered.
+TThe topics in this module include: data analysis, descriptive statistics, statistical inference, correlation/covariance, graphing and tabulation, analysis of variance, regression/predictive analysis, and how these can and are applied to sport business.
 
 # Learning Outcomes
 * Students will understand why data management and analysis are crucial in financial management of sport business.
