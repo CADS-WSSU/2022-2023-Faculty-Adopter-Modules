@@ -12,6 +12,7 @@ TThe topics in this module include: data analysis, descriptive statistics, stati
 * Students will demonstrate how to collect data relevant to the topics, analyze the data, and apply the skills to sport financial and economic issues.
 * Students be able to explain inferential analysis and conduct a variety of types of regression analysis.
 * Students will conduct economic/financial impact research by using knowledge of data collection, analysis, and interpretation.
+* Students will be exposed to data analysis software such as Jamovi, SPSS, and Stata.
 
 # Data Science Infusion
 The primary focus of this repository concerns only the portion of the course where the data science infusion modules were implemented as part of the CADS adopter program. This module was classified into three sub-modules:
