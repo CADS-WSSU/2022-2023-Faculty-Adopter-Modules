@@ -1,0 +1,31 @@
+data()
+data("USArrests")
+head(USArrests)
+tail(USArrests)
+colnames(USArrests)
+nrow(USArrests)
+summary(USArrests)
+max(USArrests$Murder)
+xi=max(USArrests$Murder)
+highestmurderarreststate <- USArrests[xi,]
+highestmurderarreststate <- USArrests[USArrests$Murder == xi,]
+highestmurderarreststate
+fivenum(USArrests$Murder)
+mean(USArrests$Murder)
+median(USArrests$Murder)
+min(USArrests$Murder)
+max(USArrests$Murder)
+var(USArrests$Murder)
+sd(USArrests$Murder)
+range(USArrests$Murder)
+IQR(USArrests$Murder)
+USArrestswithtotalarrests <- USArrests
+USArrestswithtotalarrests$TotalArrest <- USArrestswithtotalarrests$Murder + USArrestswithtotalarrests$Assault + USArrestswithtotalarrests$UrbanPop + USArrestswithtotalarrests$Rape
+x1=max(USArrestswithtotalarrests$TotalArrest)
+highestarreststate <- USArrestswithtotalarrests[USArrestswithtotalarrests$TotalArrest == x1,]
+highestarreststate
+cor.test(USArrestswithtotalarrests$UrbanPop, USArrestswithtotalarrests$TotalArrest)
+boxplot(USArrestswithtotalarrests$UrbanPop, USArrestswithtotalarrests$TotalArrest)
+plot(USArrestswithtotalarrests$UrbanPop, USArrestswithtotalarrests$TotalArrest)
+plot(USArrestswithtotalarrests$UrbanPop, USArrestswithtotalarrests$TotalArrest, main = 'Regression for USArrest', xlab = 'UrbanPop', ylab = 'TotalArrest')
+abline(lm(UrbanPop ~ TotalArrest, data = USArrestswithtotalarrests),col = 'red')

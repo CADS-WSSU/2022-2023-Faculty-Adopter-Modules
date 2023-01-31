@@ -1,0 +1,14 @@
+Name <-c('John','Jessica','Steve','Rachel','Alice','Debby')
+Age <-c(43,34,22,27,35,48)
+Height <-c(181,172,189,169,161,158)
+Gender <-c('M','F','M','M','F','F')
+my_df <-data.frame(Name,Age,Height,Gender)
+str(my_df)
+summary(my_df)
+mean(my_df$Age)
+mean(my_df$Height)
+aggregate(my_df$Age, list(my_df$Gender), FUN=mean)
+my_df2 <-my_df[,-1]
+row.names(my_df2) <- paste("patient", 1:nrow(my_df2))
+my_df3 <-my_df2[my_df2$Gender =='F',]
+my_df4 <- my_df2[my_df2$Gender == "M"& my_df2$Height>170,]

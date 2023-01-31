@@ -1,0 +1,4 @@
+mydf1 <- data.frame('id'=c(101,102,103,104),'age'=c(14,12,15,10))
+mydf2 <- data.frame('id'=c(101,102,103,104),'Name'=c('Paul','Helen','Emily','John'))
+mydf3 <-merge(mydf1,mydf2)
+mydf3[order(-mydf3$age),]

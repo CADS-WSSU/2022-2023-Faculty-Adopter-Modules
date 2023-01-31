@@ -1,0 +1,6 @@
+Mynoname <- read.csv("C:/Users/wssu/Documents/library_carpentry\\MyFriends.csv")
+install.packages()
+library(ggplot2)
+ggp<- ggplot(data=Mynoname,aes(x=Age,y=Height)) + geom_point()
+View(ggp)
+ggp + geom_smooth(method= 'lm',formula = y ~ x)

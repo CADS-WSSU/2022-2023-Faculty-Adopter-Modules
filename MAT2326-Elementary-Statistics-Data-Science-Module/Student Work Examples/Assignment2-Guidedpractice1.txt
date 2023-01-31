@@ -1,0 +1,22 @@
+library(dplyr)
+Name <-c('Jon','Bill','Maria','Ben','Tina')
+Age <-c(23,41,32,68,26)
+df <-data.frame(Name,Age)
+print(df)
+colnames(df)[which(names(df)=='Name')] <- 'First_Name'
+df$Last_Name <-c('Smith','Kemp','Doe','William','Walker')
+df$Gender <-c('M','M','F','M','F')
+Myfinal_df <-df
+View(Myfinal_df)
+head(Myfinal_df)
+print(Myfinal_df)
+df_plusOnerow <-rbind(df,c('Michael',34))
+df_plusOnerow
+New_persons <-data.frame(Name=c('Michael','Jane'),Age=c(34,42))
+df_plusNewrows <-bind_rows(df,New_persons)
+df_plusNewrows
+New_df <-data.frame(Gender=c('M','F','M','F','M'),Last_Name=c('Smith','Kemp','Doe','William','Walker'))
+My_Newdf <-cbind(df,New_df)
+My_Finaldf <- rename(My_Newdf,First_Name='Name')
+View(Myfinal_df)
+Myfinal_df = Myfinal_df[,c(1,2,4,3)]

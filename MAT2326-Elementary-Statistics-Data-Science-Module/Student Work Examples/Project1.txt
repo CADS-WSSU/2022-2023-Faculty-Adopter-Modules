@@ -1,0 +1,42 @@
+install.packages()
+library(dplyr)
+library(ggplot2)
+library(readxl)
+Class_Survey_Data_1x <- read_excel("Class_Survey_Data-1.xls", 
+                                  col_types = c("numeric", "text", "text", 
+                                                "numeric", "numeric", "text", "text", 
+                                                "numeric", "numeric", "numeric", 
+                                                "numeric", "numeric", "numeric", 
+                                                "numeric", "numeric"))
+View(Class_Survey_Data_1x)
+attach(Class_Survey_Data_1x)
+Gend_Class <- factor(Gender)
+Gend_Class
+summary(Gend_Class)
+Cl_Sur <- factor(Class)
+Cl_Sur
+summary(Cl_Sur)
+filter(Class_Survey_Data_1x, Age >25)
+max(Class_Survey_Data_1x$GPA , na.rm = TRUE)
+quantile(Class_Survey_Data_1x$Exam1, probs = seq(
+  .1, .9, by=.1))
+library(readxl)
+Class_Survey_Data_1xx <- read_excel("Class_Survey_Data-1xx.xls")
+View(Class_Survey_Data_1xx)
+attach(Class_Survey_Data_1xx)
+maj_cla <- factor(Major)
+levels(maj_cla)
+mean(Class_Survey_Data_1x$Age)
+hist(Class_Survey_Data_1x$Age, main = "Histogram of Class Survey", xlab = 
+       "Survey Data", ylab = "Student Count")
+colMeans(Class_Survey_Data_1x[ , c("HW1","HW2", 
+                                   "HW3", "HW4", "HW5")], na.rm = TRUE)
+mean_Homework <- c(0.9225000,0.8820000,0.9136842,0.9421053,0.8584211, NA, NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA, na.rm=TRUE)
+Class_Survey_Data_1x$mean_Homework <- mean_Homework
+Class_Survey_Data_1x
+New_ClassSurveyData.csv <- Class_Survey_Data_1x
+plot(mean_Homework,Exam1, pch=19, xlab= "Homework Mean",
+     ylab="Exam 1 Grades", main="Scatterplot of Mean vs Exam Grades")
+cor(Exam1, mean_Homework)
+abline(Exam1 ~ mean_Homework)
+lm(formula = Exam1 ~ mean_Homework)

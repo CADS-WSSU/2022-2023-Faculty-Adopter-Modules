@@ -1,0 +1,15 @@
+install.packages()
+library(dplyr)
+library(ggplot2)
+diamonds#
+data("diamonds")
+head(diamonds)
+tail(diamonds)
+colnames(diamonds)
+nrow(diamonds)
+summary(diamonds)
+View(diamonds)
+cor.test(diamonds$carat,diamonds$price)
+plot(diamonds$carat, diamonds$price, main = 'Regression for price per carat', 
+xlab = 'carat', ylab = 'price')
+abline(lm(price ~carat, data = diamonds),col = 'red')

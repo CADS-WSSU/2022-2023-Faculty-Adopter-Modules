@@ -1,0 +1,22 @@
+install.packages("dblyr")
+mean(ClassSurveyData2$HW1)
+mean(ClassSurveyData2$HW2)
+mean(ClassSurveyData2$HW3, na.rm = TRUE)
+mean(ClassSurveyData2$HW4, na.rm = TRUE)
+mean(ClassSurveyData2$HW5, na.rm = TRUE)
+summary(ClassSurveyData2)
+New_ClassSurveyData <- ClassSurveyData2
+New_ClassSurveyData$mean_Homework <- rowMeans(New_ClassSurveyData[,10:14],na.rm = TRUE)
+plot(New_ClassSurveyData$mean_Homework,New_ClassSurveyData$Exam1, 
+     main = "Homework Average versus Exam Grade1",xlab='Mean Homework',ylab='Exam1')
+rsquare <- lm(New_ClassSurveyData$Exam1 ~ New_ClassSurveyData$mean_Homework, 
+             data = New_ClassSurveyData)
+summary(rsquare)
+rsquare$coefficients
+coef(summary(rsquare))
+avg75 = data.frame(mean_Homework = 75)
+41.3628 + 0.3781*75
+predict(rsquare, avg75)
+cor(New_ClassSurveyData$mean_Homework,New_ClassSurveyData$Exam1)
+abline(lm(New_ClassSurveyData$Exam1 ~ New_ClassSurveyData$mean_Homework, 
+          data = New_ClassSurveyData), col = 'red')
