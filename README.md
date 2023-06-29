@@ -22,5 +22,11 @@ This repository aims to be a central open-source resource for all modules and ma
       SPM 3311 Finance and Economics in Sport
       </td>
     </tr>
+     <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/ART-4320-Photography%20II-Data-Science-Module">Photography II</a></td>
+      <td>
+      ART 4320 Photography II
+      </td>
+    </tr>
   </tbody>
 </table>
