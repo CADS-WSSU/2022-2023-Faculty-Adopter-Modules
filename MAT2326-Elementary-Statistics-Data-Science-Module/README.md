@@ -25,8 +25,45 @@ The primary focus of this repository concerns only the portion of the course whe
       <th>Folders In Repository</th>
       <th>Information In Each Folder</th>
     </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/MAT2326-Elementary-Statistics-Data-Science-Module/CADS%20Assignments">CADS Assignments</a></td>
+      <td>
+        <ul>
+          <li>Assignment 1: Library Data</li>
+          <li>Assignment 2: Creating Data Frames</li>
+          <li>Assignment 3: Importing Datasets and Vizualizing with ggplot2</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/MAT2326-Elementary-Statistics-Data-Science-Module/CADS%20Projects">CADS Projects</a></td>
+      <td>
+        <ul>
+          <li>Project 1: General R Skills</li>
+          <li>Project 2: Regression</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/MAT2326-Elementary-Statistics-Data-Science-Module/Lectures">Lectures</a></td>
+      <td>
+        <ul>
+          <li>Introduction to Statistics</li>
+          <li>Introduction to R</li>
+          <li>Plotting and Regression in R with ggplot2</li>
+        </ul>
+      </td>
+    </tr>
+     <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/MAT2326-Elementary-Statistics-Data-Science-Module/Student%20Work%20Examples">Student Work Examples</a></td>
+      <td>
+        <ul>
+          <li>Assignments and Projects</li></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
-</table>  
+</table>
 
 # Contact
 For questions or additional support regarding this module, feel free to reach out to us:
