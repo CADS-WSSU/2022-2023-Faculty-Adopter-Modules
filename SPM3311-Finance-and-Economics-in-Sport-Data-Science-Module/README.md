@@ -27,6 +27,43 @@ The primary focus of this repository concerns only the portion of the course whe
       <th>Folders In Repository</th>
       <th>Information In Each Folder</th>
     </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module/Class%20Activities">Class Activities</a></td>
+      <td>
+        <ul>
+          <li>Class Activity 1: Descriptive Analysis</li>
+          <li>Class Activity 2: Simple Regression Analysis</li>
+          <li>Class Activity 3: Multiple Regression Analysis</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module/Lectures">Lectures</a></td>
+      <td>
+        <ul>
+          <li>Data Science and Business Analytics</li>
+          <li>Regression Analysis</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module/Quizzes">Quizzes</a></td>
+      <td>
+        <ul>
+          <li>Quiz 1: Data Analysis/Descriptive Statistics</li>
+          <li>Quiz 2: Simple Regression Analysis</li>
+          <li>Quiz 3: Multiple Regression Analysis</li>
+        </ul>
+      </td>
+    </tr>
+     <tr>
+      <td><a href="https://github.com/CADS-WSSU/2022-2023-Faculty-Adopter-Modules/tree/main/SPM3311-Finance-and-Economics-in-Sport-Data-Science-Module/Student%20Work%20Examples">Student Work Examples</a></td>
+      <td>
+        <ul>
+          <li>Quiz and Project</li></li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>  
 
